@@ -15,3 +15,5 @@ function run(){
   console.log(capitalNumber);
  
 }
+
+run();
