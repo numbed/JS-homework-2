@@ -15,8 +15,8 @@ function run(){
 	}
 		
 	console.log("arrSum: "+arrSum);
-	console.log("minSum: "+(arrSum - arrSorted[4]));
-	console.log("maxSum: "+(arrSum - arrSorted[0]));
+	console.log("minSum: "+(arrSum - arrSorted.pop()));
+	console.log("maxSum: "+(arrSum - arrSorted.shift()));
 	
 }
 run();
