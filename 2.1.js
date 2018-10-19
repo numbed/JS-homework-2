@@ -26,3 +26,5 @@ function run(){
 	}
 	console.log("Alice: "+alicePoints+" Bob: "+ bobPoints);
 }
+
+run();
