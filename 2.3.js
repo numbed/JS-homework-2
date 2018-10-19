@@ -13,3 +13,5 @@ function run(){
 	}
 	console.log(arraySum);
 }
+
+run();
