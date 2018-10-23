@@ -1,4 +1,6 @@
-// https://www.hackerrank.com/challenges/compare-the-triplets/problem
+/* 
+	https://www.hackerrank.com/challenges/compare-the-triplets/problem
+*/
 
 function run(){
 	var alice = [];
