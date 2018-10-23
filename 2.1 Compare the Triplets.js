@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/camelcase/problem
+
 function run(){
 	var alice = [];
 
