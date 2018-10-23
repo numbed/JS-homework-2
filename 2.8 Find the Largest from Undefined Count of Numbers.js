@@ -1,5 +1,5 @@
 /*
-  Find the largest number; the input numbers might contain negatives.
+	Find the largest number; the input numbers might contain negatives.
 */
 
 function run(){
