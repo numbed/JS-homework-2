@@ -4,20 +4,18 @@
   in format {letter} -> {times}
 */
 
-////////////////////////// WORK IN PROGRESS ////////////////////////////
-
 function run(){
 	var text = prompt("Enter text:","apple");
-	console.log(text);
-	Object.getOwnPropertyNames(text).forEach (
-		function (val, idx, array) {
-			console.log(text[val] + " -> " + val);
-		}
-	);
-	for (var i = 0; i<text.length; i++) {
+	var obj={};
 		
+	for (var i=0; i<text.length; i++){
+		var key = text[i];
+		obj[key] = (obj[key] || 0) + 1;
 	}
-		
-		
+	
+	for(x in obj){
+		console.log(x + " -> " + obj[x]);
+	}
+	
 }
 run();
