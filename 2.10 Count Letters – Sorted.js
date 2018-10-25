@@ -19,7 +19,6 @@ function run(){
 	}
 	
 	for(var x in obj){
-		console.log(x + " -> " + obj[x]);
 		sorted.push([x, obj[x]]);
 	}
 	sorted.sort(function(a,b) {return b[1]-a[1];});
